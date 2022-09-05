@@ -50,12 +50,12 @@ class MyFooter extends HTMLElement {
          
                   <div id="navbar-scroll" class="collapse navbar-collapse navbar-themers navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="#top">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about-us">About us</a></li> 
-                        <li><a href="#solutions">Solutions</a></li>
-                        <li><a href="#clients">Clients</a></li>							
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="/#top">Home</a></li>
+                        <li><a href="/#services">Services</a></li>
+                        <li><a href="/#about-us">About us</a></li> 
+                        <li><a href="/#solutions">Solutions</a></li>
+                        <li><a href="/#clients">Clients</a></li>							
+                        <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
