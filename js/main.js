@@ -13,9 +13,9 @@ class MyFooter extends HTMLElement {
                     </div>	
                     
                     <div class="legal text-center">				
-                        <a href="/legal/cookie-policy.html" target="_blank">Cookie Policy |</a>
-                        <a href="/legal/privacy-policy.html" target="_blank">Privacy Policy |</a>
-                        <a href="/legal/terms-of-service.html" target="_blank">Terms of Service</a>
+                        <a href="/legal/cookie-policy.html">Cookie Policy |</a>
+                        <a href="/legal/privacy-policy.html">Privacy Policy |</a>
+                        <a href="/legal/terms-of-service.html">Terms of Service</a>
                     </div>
                     
                             
