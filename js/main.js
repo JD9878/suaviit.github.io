@@ -1,14 +1,14 @@
 class MyFooter extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `<footer id="footer">	
+        this.innerHTML = `<section id="footer">	
         <div class="container">
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-12 text-center feature-title"> 			 
                     <div class="social text-center more1">
                         <ul>
-                            <li><a class="wow fadeInUp" href="https://twitter.com/suaviit/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="wow fadeInUp" href="https://www.facebook.com/Suavi-IT-Consulting-110089771823025" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="wow fadeInUp" href="https://www.linkedin.com/company/suaviit/" target="_blank" data-wow-delay="0.4s"><i class="fa fa-linkedin"></i></a></li> 
+                            <li><a class="wow fadeInUp" href="https://twitter.com/suaviit/" aria-label="Twitter" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="wow fadeInUp" href="https://www.facebook.com/Suavi-IT-Consulting-110089771823025" aria-label="Facebook" target="_blank" data-wow-delay="0.2s"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="wow fadeInUp" href="https://www.linkedin.com/company/suaviit/" aria-label="Linkedin" target="_blank" data-wow-delay="0.4s"><i class="fa fa-linkedin"></i></a></li> 
                         </ul>
                     </div>	
                     
@@ -23,17 +23,17 @@ class MyFooter extends HTMLElement {
                         <p>Copyright © Designed & Developed by Suavi iT. </br> All Rights Reserved.</p>
                     </div>
                     
-                    <a href="#" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
+                    <a href="#" aria-label="scrollToTop" class="scrollToTop"><i class="pe-7s-up-arrow pe-va"></i></a>
+                </div>
             </div>	
         </div>	
-    </footer>`;
+    </section>`;
     }
-  }
-  
-  customElements.define('my-footer', MyFooter)
+}
+customElements.define('my-footer', MyFooter)
 
 // option 1
-  class MyHeader extends HTMLElement {
+class MyHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `<section id="menu">
         <nav class="navbar-wrapper navbar-default" role="navigation">
@@ -50,18 +50,17 @@ class MyFooter extends HTMLElement {
          
                   <div id="navbar-scroll" class="collapse navbar-collapse navbar-themers navbar-right">
                     <ul class="nav navbar-nav">
-                        <li><a href="/#top">Home</a></li>
-                        <li><a href="/#services">Services</a></li>
-                        <li><a href="/#about-us">About us</a></li> 
-                        <li><a href="/#solutions">Solutions</a></li>
-                        <li><a href="/#clients">Clients</a></li>							
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/#top" aria-label="Home">Home</a></li>
+                        <li><a href="/#services" aria-label="Services">Services</a></li>
+                        <li><a href="/#about-us" aria-label="About Us">About us</a></li> 
+                        <li><a href="/#solutions" aria-label="Solutions">Solutions</a></li>
+                        <li><a href="/#clients" aria-label="Clients">Clients</a></li>							
+                        <li><a href="/#contact" aria-label="Contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        </section>`;
+    </section>`;
     }
-  }
-
-  customElements.define('my-header', MyHeader)
+}
+customElements.define('my-header', MyHeader)
